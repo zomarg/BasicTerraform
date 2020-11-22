@@ -1,0 +1,5 @@
+ .terraform
+*.tfstate.backup
+variables.secret.tf
+*.tfstate
+.terraform.tfstate.lock.info
