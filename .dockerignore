@@ -1,0 +1,25 @@
+# Ignore env variable files
+**/*.env
+
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform
+
+# others
+**/.editorconfig
+node_modules
+
+# Specific to this repository
+azure-pipelines
+resources
+tests
+.dockerignore
+.gitignore
+*.config.env
+Dockerfile
+package-lock.json
+package.json
+*.md
+
+report/*

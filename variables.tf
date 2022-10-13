@@ -1,9 +1,9 @@
 variable "location" {
- default = ""
+  default = ""
 }
 
 variable "domain" {
-  default   = ""
+  default = ""
 }
 
 variable "comment" {
@@ -16,4 +16,12 @@ variable "owner" {
 
 variable "public_key" {
   default = ""
+}
+
+variable "admin_password" {
+}
+
+variable "vms" {
+  type    = list(string)
+  default = ["vmOne", "vmTwo"]
 }

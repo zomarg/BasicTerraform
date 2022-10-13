@@ -1,5 +1,46 @@
- .terraform
-*.tfstate.backup
-variables.secret.tf
+ Compiled files
 *.tfstate
-.terraform.tfstate.lock.info
+*.tfstate.backup
+*.tfstate.lock.info
+**/.test-data
+**/test/go.mod
+**/test/go.sum
+
+# logs
+*.log
+
+# Directories
+.terraform/
+.terragrunt-cache
+.vagrant/
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+# Ignored vscode files
+.vscode/
+
+*.log
+node_modules
+build
+npm-debug.log
+node_modules/**
+
+# Checkov Output reports
+*.xml
+
+.external_modules
+
+#All local config files
+*.config.env
+
+report/*.xml

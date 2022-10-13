@@ -1,0 +1,13 @@
+compact: true
+directory:
+  - ./
+download-external-modules: true 
+evaluate-variables: true 
+framework:
+  - dockerfile
+  - terraform
+skip-check: 
+  - CKV_DOCKER_3 
+  - CKV_DOCKER_2 
+skip-suppressions: true 
+soft-fail: true
